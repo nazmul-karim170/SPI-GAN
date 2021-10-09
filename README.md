@@ -3,7 +3,8 @@ Implementation of SPI-GAN: Towards Single-Pixel Imaging through Generative Adver
 
 1. First download the STL10 and UCF101 datasets. You can find both of these datasets very easily. 
 	
-		## If you Want to Create the images that will be fed to the GAN ## 
+		 If you Want to Create the images that will be fed to the GAN 
+		 
 2. Run Matlab code "L2Norm_Solution.m" for generating the l2-norm solution. Make Necessary Folders before run. I will also upload the python version of this in future.  
 		
 		
