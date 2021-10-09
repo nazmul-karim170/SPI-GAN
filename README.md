@@ -1,3 +1,4 @@
+![Summary_figure](https://user-images.githubusercontent.com/24496189/136644335-9a54bb61-87be-4255-8376-6790064df6cb.png)
 # SPI-GAN-for-Single-Pixel-Camera
 Implementation of SPI-GAN: Towards Single-Pixel Imaging through Generative Adversarial Network
 
