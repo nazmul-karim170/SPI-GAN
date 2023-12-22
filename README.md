@@ -31,7 +31,8 @@ python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path
 python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
 ```
 Please cite the paper when you use these codes-
-	```
+
+	
 	@misc{karim2021spigan,
 	      title={SPI-GAN: Towards Single-Pixel Imaging through Generative Adversarial Network}, 
 	      author={Nazmul Karim and Nazanin Rahnavard},
@@ -40,4 +41,4 @@ Please cite the paper when you use these codes-
 	      archivePrefix={arXiv},
 	      primaryClass={cs.CV}
 	}
-	```
+	
