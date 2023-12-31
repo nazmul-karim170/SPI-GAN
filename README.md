@@ -21,9 +21,9 @@ We design a novel DL-based reconstruction framework to tackle the problem of hig
 
 
 ### 💡 Fast, High Quality Image and Video Reconstruction
-- Stable Diffusion (SD) for image generation   -->   high-quality
-- Single View editing  --> higher chance of view-consistent editing as it is hard to obtain consistent editing effects in multiple views with SD
-- The editing process is training-free as we use a generalized NeRF model -->   fast high-quality 3D content reconstruction.
+- Deep Learning for Reconstruction instead of tradiational L1-norm solution   -->   Fast Recostruction 
+- Generative Adversarial Network (GAN) as the recovery architecture --> High-quality
+- In addtion to adversarial and MSE loss, we use a perceptual loss function using the feature space of a pre-trained ImageNet Encoder --> Helps achieving SOTA Perforamnce
 
 
 
