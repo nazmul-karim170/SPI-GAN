@@ -33,7 +33,7 @@ Welcome to **watch** 👀 this repository for the latest updates.
 
 ✅ **[2023.12.18]** : We have released our code!
 
-✅ **[2021.07.21]** : We have released our paper, Free-Editor on [arXiv](https://arxiv.org/pdf/2107.01330.pdf).
+✅ **[2021.07.21]** : We have released our paper, SPI-GAN on [arXiv](https://arxiv.org/pdf/2107.01330.pdf).
 
 
 
