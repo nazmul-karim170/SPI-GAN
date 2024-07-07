@@ -1,5 +1,5 @@
 
-<h2 align="center"> <a href="https://github.com/umarkhalidAI/LatentEditor">SPI-GAN: Towards Single-Pixel Imaging through
+<h2 align="center"> <a href="https://github.com/nazmul-karim170/SPI-GAN-Deep_Learning-Single-Pixel-Camera">SPI-GAN: Towards Single-Pixel Imaging through
 Generative Adversarial Network</a></h2>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
 
@@ -20,10 +20,10 @@ Generative Adversarial Network</a></h2>
 We design a novel DL-based reconstruction framework to tackle the problem of high-quality and fast image recovery in single-pixel imaging
 
 
-### 💡 Fast, High Quality Image and Video Reconstruction
-- Deep Learning for Reconstruction instead of tradiational L1-norm solution   -->   Fast Recostruction 
+### 💡 Fast, High-quality Image and Video Reconstruction
+- Deep Learning for Reconstruction instead of traditional L1-norm solution   -->   Fast Reconstruction 
 - Generative Adversarial Network (GAN) as the recovery architecture --> High-quality
-- In addtion to adversarial and MSE loss, we use a perceptual loss function using the feature space of a pre-trained ImageNet Encoder --> Helps achieving SOTA Perforamnce
+- In addition to adversarial and MSE loss, we use a perceptual loss function using the feature space of a pre-trained ImageNet Encoder --> Helps to achieve SOTA performance
 
 
 
