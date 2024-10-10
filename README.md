@@ -55,8 +55,8 @@ Our proposed SPI-GAN framework mainly consists of a generator that takes the noi
 * Install <a href="https://docs.anaconda.com/anaconda/install/linux/">Anaconda</a> and create an environment
   
 	```bash
-	conda create -n fip-env python=3.10
- 	conda activate fip-env
+	conda create -n spi_gan python=3.10
+ 	conda activate spi_gan
 	```
 
 * After creating a virtual environment, run
