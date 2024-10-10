@@ -56,26 +56,34 @@ Implementation of SPI-GAN: Towards Single-Pixel Imaging through Generative Adver
 			 
 2. If you Want to Create the images that will be fed to the GAN, Run Matlab code "L2Norm_Solution.m" for generating the l2-norm solution. Make Necessary Folders before run. I will also upload the python version of this in future.  		
 		
-3. Run "save_numpy.py" to create the .npy file under different settings. 
+3. Execute this to create the .npy file under different settings
 
-4. Run "Main_Reconstruction.py" to perform the Training.
+   
+	```bash
+	   python save_numpy.py
+	```
 
+5. For Training-
+	
+	```bash
+	   python Main_Reconstruction.py
+	```
 
 ### Data Preaparation for Video Reconstruction: UCF-101
 
 * Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
 * Convert from avi to jpg files using ```util_scripts/generate_video_jpgs.py```
 
-```bash
-python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path ucf101
-```
+	```bash
+	python -m util_scripts.generate_video_jpgs avi_video_dir_path jpg_video_dir_path ucf101
+	```
 
 * Generate annotation file in json format similar to ActivityNet using ```util_scripts/ucf101_json.py```
   * ```annotation_dir_path``` includes classInd.txt, trainlist0{1, 2, 3}.txt, testlist0{1, 2, 3}.txt
 
-```bash
-python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
-```
+	```bash
+	python -m util_scripts.ucf101_json annotation_dir_path jpg_video_dir_path dst_json_path
+	```
 
 ## 🚀 Reconstruction Results
 
