@@ -45,25 +45,41 @@ Welcome to **watch** 👀 this repository for the latest updates.
 Our proposed SPI-GAN framework mainly consists of a generator that takes the noisy l2-norm solution (xˆ_noisy) and produce a clear reconstruction
 (xˆ) that is comparable to x. On the other hand, a discriminator learns to differentiate between x and xˆ in an attempt to not to be fooled by the generator.
 
-### Architecture 
+## Architecture 
 
 <img src="assets/spi-gan.png"/>
 
-## Code for Training
-Implementation of SPI-GAN: Towards Single-Pixel Imaging through Generative Adversarial Network
 
-1. First download the STL10 and UCF101 datasets. You can find both of these datasets very easily. 
+## Installation Guide 
+
+* Install <a href="https://docs.anaconda.com/anaconda/install/linux/">Anaconda</a> and create an environment
+  
+	```bash
+	conda create -n fip-env python=3.10
+ 	conda activate fip-env
+	```
+
+* After creating a virtual environment, run
+  
+	```bash
+	pip install -r requirements.txt
+	```
+
+
+## Code for Training
+
+* First download the STL10 and UCF101 datasets. You can find both of these datasets very easily. 
 			 
-2. If you Want to Create the images that will be fed to the GAN, Run Matlab code "L2Norm_Solution.m" for generating the l2-norm solution. Make Necessary Folders before run. I will also upload the python version of this in future.  		
+* If you Want to Create the images that will be fed to the GAN, Run Matlab code "L2Norm_Solution.m" for generating the l2-norm solution. Make Necessary Folders before run. I will also upload the python version of this in future.  		
 		
-3. Execute this to create the .npy file under different settings
+* Execute this to create the .npy file under different settings
 
    
 	```bash
 	   python save_numpy.py
 	```
 
-5. For Training-
+* For Training-
 	
 	```bash
 	   python Main_Reconstruction.py
@@ -72,6 +88,7 @@ Implementation of SPI-GAN: Towards Single-Pixel Imaging through Generative Adver
 ### Data Preaparation for Video Reconstruction: UCF-101
 
 * Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
+  
 * Convert from avi to jpg files using ```util_scripts/generate_video_jpgs.py```
 
 	```bash
